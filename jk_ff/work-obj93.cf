@@ -1,0 +1,7 @@
+v 4
+file . "jk_ff.vhd" "9e1b7d0debb13dd128f2a3e5aca39c0c6bb2e9f1" "20260403183513.882":
+  entity jk_ff at 3( 15) + 0 on 19;
+  architecture behavioral of jk_ff at 15( 261) + 0 on 20;
+file . "jk_ff_tb.vhd" "46ffa810988cdcaf2a5ced039a41f86bef7f4a0c" "20260403183513.883":
+  entity jk_ff_tb at 3( 18) + 0 on 21;
+  architecture test of jk_ff_tb at 10( 129) + 0 on 22;

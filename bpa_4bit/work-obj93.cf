@@ -1,0 +1,10 @@
+v 4
+file . "bpa_4bit_tb.vhd" "22f6a07dd0a6d2f6c64dc5bf9aca18f4855bd4f4" "20260403181832.953":
+  entity bpa_4bit_tb at 3( 20) + 0 on 19;
+  architecture test of bpa_4bit_tb at 10( 137) + 0 on 20;
+file . "full_adder.vhd" "e1849d690d8e487361b1a9feb05a3ae512723a2b" "20260403181417.054":
+  entity full_adder at 3( 19) + 0 on 11;
+  architecture dataflow of full_adder at 15( 226) + 0 on 12;
+file . "bpa_4bit.vhd" "fe6a04598745e344dc67a13197327f114a6e6fa1" "20260403181832.944":
+  entity bpa_4bit at 3( 17) + 0 on 17;
+  architecture structural of bpa_4bit at 16( 281) + 0 on 18;
