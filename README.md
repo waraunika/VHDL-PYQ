@@ -32,9 +32,22 @@ And if you are not keen on running someone else's script on your machine, here's
 > ```VHDL Code for JK Flip Flop using PROCESS```
 - `cd` into `jk_ff` and run the script `../run_vhdl_sim.sh`
 
-### 1. [5] (`80 Ch`)
+### 2. [5] (`80 Ch`)
 > ```VHDL Code for 4-bit parallel adder```
 - `cd` into `./bpa_4bit/` 
 - compile adder: ```ghdl -a full_adder.vhd```
+- and run the script `../run_vhdl_sim.sh`
+
+### 3. [6] (`79 Ch``)
+> ```Design a traffic light controller unit with necessary assumptions using state machine```
+- **Assumptions**
+  - using simplified intersection
+  - intersection has only 2 way through-traffic possible
+  - North (N), South (S), East (E), West (W) are directions.
+  - NS can run at one time exclusively, or EW can run at one time exclusively as simiplified demonstration.
+  - we use 3 lights: GREEN, YELLOW, RED. Green and yellow can occur of NS while EW is on RED, and vice versa.
+  - I am not going to do a full blown actual traffic cycle here.
+  - if you wish to, you can run 8 state complicated one too. But its of 6 marks, not 8.
+- `cd` into `./traffic_controller/`
 - and run the script `../run_vhdl_sim.sh`
 

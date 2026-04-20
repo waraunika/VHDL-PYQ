@@ -1,0 +1,7 @@
+v 4
+file . "traffic_controller_tb.vhd" "c34ba775622a2792062c54550ad30df46c11f72c" "20260420141132.838":
+  entity traffic_controller_tb at 3( 30) + 0 on 29;
+  architecture sim of traffic_controller_tb at 10( 167) + 0 on 30;
+file . "traffic_controller.vhd" "341a08080d1bb12f7de4f3352d80e16be2c37ed3" "20260420141132.834":
+  entity traffic_controller at 3( 27) + 0 on 27;
+  architecture behavioral of traffic_controller at 19( 404) + 0 on 28;
