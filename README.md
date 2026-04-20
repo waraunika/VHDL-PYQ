@@ -57,3 +57,9 @@ And if you are not keen on running someone else's script on your machine, here's
   - ![Transition Table & State Diagram](./images/state_diagram_1011.jpg)
 - `cd` into `./seq_detector_1011/`
 - run the script `../run_vhdl_sim.sh`
+
+### 5. [5] (`75 Bh, 73 Ma`)
+> ```full adder using 2 half adder and OR gate.```
+- `cd` into `./full_adder/`
+- compile half adder first `ghdl -a half_adder.vhd`
+- then run the script: `../run_vhdl_sim.sh`
