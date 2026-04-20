@@ -63,3 +63,15 @@ And if you are not keen on running someone else's script on your machine, here's
 - `cd` into `./full_adder/`
 - compile half adder first `ghdl -a half_adder.vhd`
 - then run the script: `../run_vhdl_sim.sh`
+
+### 6. [6, 8] (`82 Ka`, `76 Bh`, `73 Bh`, `71 Bh`)
+> ```VHDL code for GCD of two numbers```
+- some context
+  - i could not get it to working with simple combinational logic
+    - had error of (1) undefined state, which got solved
+    - when i noticed another error of vcd not containing the final test case condition's output
+    - this code is kept as backup in `./backups/gcd_calculator/`
+  - finished code is present in the main directory.
+  - however, since this is synchronous processing, it takes 1 clock cycle as delay between input and its output.
+- `cd` into `./gcd_calculator/`
+- run the script `../run_vhdl_sim.sh`
