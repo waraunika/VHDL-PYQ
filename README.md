@@ -38,7 +38,7 @@ And if you are not keen on running someone else's script on your machine, here's
 - compile adder: ```ghdl -a full_adder.vhd```
 - and run the script `../run_vhdl_sim.sh`
 
-### 3. [6] (`79 Ch``)
+### 3. [6] (`79 Ch`)
 > ```Design a traffic light controller unit with necessary assumptions using state machine```
 - **Assumptions**
   - using simplified intersection
@@ -51,3 +51,9 @@ And if you are not keen on running someone else's script on your machine, here's
 - `cd` into `./traffic_controller/`
 - and run the script `../run_vhdl_sim.sh`
 
+### 4. 5 (`78 Ch`)
+> ```sequence detector for the sequence 1011 and then develop a VHDL code based on the state diagram```
+- State diagram:
+  - ![Transition Table and State Diagram][./images/state_diagram_1011.jpg]
+- `cd` into `./seq_detector_1011/`
+- run the script `../run_vhdl_sim.sh`
