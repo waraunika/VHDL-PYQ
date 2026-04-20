@@ -54,6 +54,6 @@ And if you are not keen on running someone else's script on your machine, here's
 ### 4. 5 (`78 Ch`)
 > ```sequence detector for the sequence 1011 and then develop a VHDL code based on the state diagram```
 - State diagram:
-  - ![Transition Table and State Diagram][./images/state_diagram_1011.jpg]
+  - ![Transition Table and State Diagram](./images/state_diagram_1011.jpg)
 - `cd` into `./seq_detector_1011/`
 - run the script `../run_vhdl_sim.sh`
