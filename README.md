@@ -28,7 +28,7 @@ And if you are not keen on running someone else's script on your machine, here's
 - ```gtkwave file.vcd```
 
 
-### 1. [5] (`81 Ch`, `75 Ba`)
+### 1. [5] (`81 Ch`, `78 Po`, `75 Ba`)
 > ```VHDL Code for JK Flip Flop using PROCESS```
 - `cd` into `jk_ff` and run the script `../run_vhdl_sim.sh`
 
@@ -104,4 +104,9 @@ And if you are not keen on running someone else's script on your machine, here's
 > `VHDL for factorial`
 - always be careful when assigning number of bits here
 - `cd` into `./factorial/`
+- run the script `../run_vhdl_sim.sh`
+
+### 13. [4] (`80 Ash`)
+> `VHDL for 1:8 Demux`
+- cd into `./demux_1x8/`
 - run the script `../run_vhdl_sim.sh`
