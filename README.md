@@ -80,3 +80,16 @@ And if you are not keen on running someone else's script on your machine, here's
 - `cd` into `./mux_2x1/`
 - run the script `../run_vhdl_sim.sh`
 
+### 9. [6] (`72 Ash`)
+> ```VHDL code for LCM of two numbers```
+- `cd` into `./lcm_calculator/`
+- run the script `../run_vhdl_sim.sh`
+
+### 10. [5] (`71 Ma`)
+> ```VHDL code for ripple counter using t flip flop```
+- its for 5 marks, i'm not creating separate modules for t flip and inverter
+  - so did it by behavioral
+  - logic remains same even if structural
+- `cd` into `./ripple_counter/`
+- run the script `../run_vhdl_sim.sh`
+
