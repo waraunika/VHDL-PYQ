@@ -100,3 +100,8 @@ And if you are not keen on running someone else's script on your machine, here's
 - `cd` into `./seq_detector_1101/`
 - run the script `../run_vhdl_sim.sh`
 
+### 12. [6] (`81 Ash`)
+> `VHDL for factorial`
+- always be careful when assigning number of bits here
+- `cd` into `./factorial/`
+- run the script `../run_vhdl_sim.sh`

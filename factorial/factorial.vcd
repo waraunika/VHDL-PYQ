@@ -1,0 +1,49 @@
+$date
+  Tue Apr 21 11:12:07 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module factorial_tb $end
+$var reg 3 ! x_in[2:0] $end
+$var reg 13 " y_out[12:0] $end
+$scope module uut $end
+$var reg 3 # x_in[2:0] $end
+$var reg 13 $ y_out[12:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b010 !
+b0000000000010 "
+b010 #
+b0000000000010 $
+#10000000
+b001 !
+b0000000000001 "
+b001 #
+b0000000000001 $
+#20000000
+b100 !
+b0000000011000 "
+b100 #
+b0000000011000 $
+#30000000
+b101 !
+b0000001111000 "
+b101 #
+b0000001111000 $
+#40000000
+b111 !
+b1001110110000 "
+b111 #
+b1001110110000 $
