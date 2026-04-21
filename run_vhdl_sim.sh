@@ -44,7 +44,7 @@ fi
 
 echo "[3] Running simulation..."
 vcd_file="${entity_name}.vcd"
-if ! ghdl -r "$tb_entity" --vcd="$vcd_file" --stop-time=80ns --disp-time; then
+if ! ghdl -r "$tb_entity" --vcd="$vcd_file" --stop-time=300ns --disp-time; then
   echo "[3] ghdl -r $tb_entity --stop-time=150ns"
   echo "[3] Simulation failed"
   exit 1

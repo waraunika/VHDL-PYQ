@@ -93,3 +93,10 @@ And if you are not keen on running someone else's script on your machine, here's
 - `cd` into `./ripple_counter/`
 - run the script `../run_vhdl_sim.sh`
 
+### 11. [7] (`70 Ma`)
+> ```sequence detector for the sequence 1101 and then develop a VHDL code based on the state diagram```
+- State diagram:
+  - ![Transition Table & State Diagram](./images/state_diagram_1101.jpg)
+- `cd` into `./seq_detector_1101/`
+- run the script `../run_vhdl_sim.sh`
+
