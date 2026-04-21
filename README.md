@@ -101,12 +101,17 @@ And if you are not keen on running someone else's script on your machine, here's
 - run the script `../run_vhdl_sim.sh`
 
 ### 12. [6] (`81 Ash`)
-> `VHDL for factorial`
+> ```VHDL for factorial```
 - always be careful when assigning number of bits here
 - `cd` into `./factorial/`
 - run the script `../run_vhdl_sim.sh`
 
 ### 13. [4] (`80 Ash`)
-> `VHDL for 1:8 Demux`
+> ```VHDL for 1:8 Demux```
 - cd into `./demux_1x8/`
+- run the script `../run_vhdl_sim.sh`
+
+### 14. [4] (`79 Jth`)
+> ```VHDL for D flip flop using process```
+- cd into `./d_ff/`
 - run the script `../run_vhdl_sim.sh`
