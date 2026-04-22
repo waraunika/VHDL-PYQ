@@ -83,6 +83,7 @@ begin
         EW_GREEN <= '1';
         NS_RED <= '1';
 
+      -- anonymous correction from anonymous
       when 3 => -- EW yellow, NS red
         NS_RED <= '1';
         EW_YELLOW <= '1';
