@@ -85,7 +85,7 @@ begin
 
       when 3 => -- EW yellow, NS red
         NS_RED <= '1';
-        EW_RED <= '1';
+        EW_YELLOW <= '1';
 
       when others => -- edge case, like when ambulance comes and we manage state for that
         NS_RED <= '1';
