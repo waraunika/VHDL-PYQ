@@ -31,7 +31,7 @@ begin
 
   -- assign signal to outputs
   Q <= q_internal;
-  Q_not <= q_internal;
+  Q_not <= not q_internal;
 
 
 end architecture behavioral;
